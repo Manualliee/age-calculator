@@ -61,7 +61,7 @@ body {
 }
 
 input {
-    padding: 5px 5px 5px 10px;
+    padding: 5px;
     width: 80%;
     font-size: 20px;
     border: 1px solid var(--clr-light-grey);
@@ -141,17 +141,19 @@ span {
     color: var(--clr-purple);
 }
 
+
 @media (min-width: 350px) and (max-width: 760px) {
     .container {
-        height: auto;
+        height: 80%;
     }
     
     #age-form {
-        gap: 20px;
+        width: 60%;
+        column-gap: 50px;
     }
 
     input {
-        width: 80px;
+        width: 70px;
     }
     
     .button-container {
@@ -159,7 +161,7 @@ span {
     }
     
     .results > div {
-        font-size: 60px;
+        font-size: 30px;
     }
 
 }
